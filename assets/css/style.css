@@ -92,17 +92,17 @@ p {
 }
 
 .benefit-lead {
-    margin-bottom: 32px;
+    margin-bottom: 48px; /*Changed margin from 32px to be 48px, this makes the elements line up better with the main section, it also looks closer to the reference image*/
     color: #ffffff;
 }
 
 .benefit-brand {
-    margin-bottom: 32px;
+    margin-bottom: 48px; /*Changed margin from 32px to be 48px, this makes the elements line up better with the main section, it also looks closer to the reference image*/
     color: #ffffff;
 }
 
 .benefit-cost {
-    margin-bottom: 32px;
+    margin-bottom: 52px;
     color: #ffffff;
 }
 
