@@ -2,13 +2,15 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /*added a universal fontsize of 16px to all text, made all fontsizes a percentage of the universal font size, flexible design.*/
+    font-size: 16px;
 }
 
 body {
     background-color: #d9dcd6;
 }
 
-/*Removed class selectors from header to */
+/*Removed class selectors from .header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,11 +20,12 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 300%;
 }
 
 header h1 .seo {
     color: #d9dcd6;
+    font-size: 100%
 }
 /*Updated div to nav.*/
 header nav {
@@ -30,7 +33,7 @@ header nav {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 125%;
 }
 
 header nav ul {
@@ -45,10 +48,11 @@ header nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 125%;
 }
 
 p {
-    font-size: 16px;
+    font-size: 100%;
 }
 
 .hero {
@@ -176,17 +180,17 @@ p {
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 225%;
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 225%;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 225%;
 }
 
 /* changed ".footer" to "footer", since the . targets a class selector.*/
@@ -198,5 +202,5 @@ footer {
 }
 
 footer h2 {
-    font-size: 20px;
+    font-size: 125%;
 }
